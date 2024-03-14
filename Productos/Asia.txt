@@ -1,0 +1,39 @@
+Nombre de la tienda:
+Sol de oriente
+
+Vendemos todo tipo de productos de alimentacion especializados en paises asiaticos para los consumidores que busquen darle ese toque umami a sus comidas. 
+¡Quedareis eternamente satisfecho! 
+
+Productos:
+
+-Alimentos
+Fideos
+Arroz
+Gyzas
+Variado de sushi
+Algas kombu
+
+-Salsas
+Leche de coco
+Curry
+Wasabi
+Salsa de soya
+
+-Dulces
+Mochis de varios sabores
+Palitos Pocky
+Dorayaki
+
+-Bebidas
+Sake
+Mogu de sabores
+Refresco Pokemon
+
+-Menaje
+Vasos para sake
+Cuencos para fideos
+Plato para sushi
+Palillos
+ 
+
+
