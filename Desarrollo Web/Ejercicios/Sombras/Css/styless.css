@@ -1,0 +1,94 @@
+
+/*El título de la página será Efectos CSS
+Tendrá este título un fondo degradado en dos colores y además de sombreado tanto el texto como la caja que lo rodea.
+Habrá tres objetos div con una altura y anchura de 150px.
+El primero cuando esté el ratón encima tendrá un fondo degradado.
+El segundo cuando el ratón esté encima se desplazará horizontalmente 200px.
+El tercero cuando el ratón esté encima empezará a animarse con 30 grados a ambos lados y una velocidad de 3.5 segundos.*/
+
+
+h1{
+  font-size: 100px;
+  text-align: center;
+  color: aqua;
+  text-shadow: 5px 5px 5px blueviolet;
+  box-shadow: 5px 5px 5px blueviolet;
+  background: linear-gradient(orange,rgb(255, 251, 0));
+}
+
+
+.dive1{
+  height: 150px;
+  width: 150px;
+}
+
+.dive1 :hover{
+  background: linear-gradient(orange,red);
+}
+
+.hache1{
+  height: 150px;
+  width: 150px;
+  text-align: center;
+}
+
+
+.dive2{
+  height: 150px;
+  width: 150px;
+  transition: width 2s;
+}
+
+.dive2 :hover{
+  width: 200px;
+}
+
+.hache2{
+  height: 150px;
+  width: 150px;
+  text-align: center;
+}
+
+.dive3{
+  height: 150px;
+  width: 150px;
+  width: 200px;
+  height: 200px;
+  margin-top: 80px;
+ 
+}
+
+.dive3 :hover{
+  transform:translateY(200px);
+  transform: translatex(100px);
+  transform:rotateX(180deg);
+  transform:skewY(-45deg) ;
+  transform: scaleX(2.5);
+
+  animation:skew 3.5s infinite;
+  transform: skew(30deg);
+  animation-direction: alternate; 
+}
+
+@keyframes skew{ 
+  0%
+  {
+      transform: skew(20deg, 20deg);
+  }
+  100%
+  {
+      transform: skew(-30deg, -30deg);
+  }
+
+}
+
+.hache3{
+  height: 150px;
+  width: 150px;
+  text-align: center;
+}
+
+
+
+  
+

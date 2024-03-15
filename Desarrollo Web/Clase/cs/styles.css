@@ -1,0 +1,132 @@
+
+/* Comentario-Selectores CSS
+
+*universal
+#id
+.class
+
+*/
+
+/*
+
+*{
+    background-color: #cccc;
+}
+
+
+div{
+    background-color: cornflowerblue;
+    margin: 5%;
+    padding: 3%;
+}
+
+
+div>h1{
+    margin: 10%;
+    padding: 5%;
+    background-color: cadetblue;
+    text-align: center;
+    font-size: 100px;
+    color: blueviolet;
+    font-family:'Kaushan Script', cursive;
+    text-shadow: rgb(44, 15, 206) 10px 10px 10px;
+}
+
+div>h2{
+    margin: 10%;
+    padding: 5%;
+    background-color: darkslategrey;
+    text-align: right;
+    font-size: 90px;
+    color: darkkhaki;
+    font-family: 'Henny Penny', cursive;
+
+    position: relative;
+    animation: myfirst 0.1s ease-out 2s infinite alternate;
+}
+
+@keyframes myfirst {
+    0%   {left:7px; top:5px;}
+    25%  {left:6px; top:15px;}
+    50%  {left:1px; top:9px;}
+    75%  {left:23px; top:8px;}
+    100% {left:2px; top:15px;}
+  }
+
+#per{
+    margin: 10%;
+    padding: 5%;
+    background-color: cadetblue;
+    text-align: center;
+    font-size: 50px;
+    color: blueviolet;
+    font-family:'Kaushan Script', cursive;
+}
+
+.par{
+    margin: 10%;
+    padding: 5%;
+    background-color: darkslategrey;
+    text-align: right;
+    font-size: 50px;
+    color: darkkhaki;
+    font-family: 'Henny Penny', cursive;
+}
+
+h1{
+    background-color: forestgreen;
+    font-size: 130px;
+    color: rgb(123, 255, 0);
+    font-family: 'Press Start 2P', cursive;
+
+    position: relative;
+    animation: myfirstt 0.1s ease-out 2s infinite alternate;
+}
+
+@keyframes myfirstt {
+    0%   {background-color: rgb(97, 148, 45); left:7px; top:5px;}
+    25%  {background-color: rgb(185, 247, 123); left:6px; top:15px;}
+    50%  {background-color: rgb(48, 68, 29); left:1px; top:9px;}
+    75%  {background-color: rgb(0, 255, 21); left:23px; top:8px;}
+    100% {background-color: rgb(200, 255, 0); left:2px; top:15px;}
+  }
+
+  */
+
+*{
+    font-size: 110%;
+    color: rgb(119, 119, 119);
+
+}
+
+caption{
+    font-size: 50px;
+}
+ 
+  th{
+      width: 200px;
+      height: 100px;
+      border: solid black; 
+      text-align: center;
+  }
+
+  td{
+    width: 200px;
+    height: 100px;
+    border: solid black; 
+    text-align: center;
+  }
+
+  tr td:first-child{
+      background-color: cadetblue;
+  }
+
+  tbody tr:nth-child(3) td:nth-child(2){
+      background-color: rgba(226, 226, 17, 0.726);
+  }
+
+td:hover{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    color: rgb(2, 195, 243);
+}

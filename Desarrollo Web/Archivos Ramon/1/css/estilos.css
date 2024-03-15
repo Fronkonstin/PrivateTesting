@@ -1,0 +1,55 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+#main {
+  background-color: grey;
+}
+
+h1.especial {
+  color: blue;
+}
+div{
+  background-color:rgb(155, 115, 115);
+  background-image:
+   url("https://carontestudio.com/img/caronte-web-estudio-logo.png");
+  background-size: cover;
+  height: 300px;
+  text-align: center;
+  width: 600px;
+}
+div.local{
+  background-color:rgb(102, 85, 148);
+  background-image: url(../img/ordenador1.jpg);
+  background-size: cover;
+  height: 400px;
+  margin-top: 50px;  
+  text-align: center;
+  width: 600px;
+}
+spam h2 {
+  border: 1px solid rgb(161, 107, 7);
+}
+
+li {
+  color: red;
+}
+
+li li {
+  color: green;
+}
+
+p > img {
+  border: 5px solid black;
+}
+
+img[alt="segunda"] {
+  border: 5px solid red;
+}
+
+p ~ h3.antes {
+  background-color: pink;
+}
+p + h3 {
+  background-color: blue;
+}

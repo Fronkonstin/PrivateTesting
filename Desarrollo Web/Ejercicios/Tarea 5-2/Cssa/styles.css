@@ -1,0 +1,62 @@
+
+
+img{
+    height: 200px;
+    border: 5px solid sienna;
+    border-radius: 10px;
+}
+
+
+h1{
+    border: 3px solid greenyellow;
+    background-color: grey;
+    color: white;
+    width: 170px;
+    text-align: center;
+    transform: rotate(17deg);
+    position: fixed;
+    top: 370px;
+    z-index: 1;
+}
+
+p{
+    font-size: 23px;
+    color: sienna;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: initial;
+    margin: 10%;
+    z-index: -1;
+}
+
+.Casa1 :hover{
+    filter: blur(4px);
+  }
+
+.Casa1{
+    margin: 3%;
+    background-color: skyblue;
+    border-radius: 10px;
+}
+
+.Casa2 :hover{
+    filter: blur(4px);
+  }
+
+.Casa2{
+    margin: 3%;
+    background-color: skyblue;
+    border-radius: 10px;
+}
+
+.Casa3 :hover{
+    filter: blur(4px);
+  }
+
+.Casa3{
+    margin: 3%;
+    background-color: skyblue;
+    border-radius: 10px;
+}
